@@ -1,0 +1,5 @@
+This version of library is not uploaded to pypi, so dates are used instead of semver.
+
+09.10.2020:
+- Fixed situation when deployment was not created correctly.
+  Now deployment name, source and other fiels are honored.
