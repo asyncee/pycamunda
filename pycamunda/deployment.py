@@ -216,7 +216,7 @@ class Create(pycamunda.base.CamundaRequest):
 
     @property
     def files(self):
-        return {f'resource-{i}': resource for i, resource in enumerate(self._files)}
+        return {f'resource-{i}.bpmn': resource for i, resource in enumerate(self._files)}
 
     def __call__(self, *args, **kwargs) -> requests.Response:
         """Send the request."""
